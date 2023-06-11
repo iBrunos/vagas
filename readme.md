@@ -48,7 +48,7 @@ A pasta api é a pasta principal do projeto.
 
 <img src="./readme/putUsers.gif" alt="GIF animado">
 
-6. Rota de GET `/users/access/:name` que retorna pelo nome do usuário quantas vezes epe foi lido pelo medoto da primeira rota sem nenhuma autenticação.
+6. Rota de GET `/users/access/:name` que retorna pelo nome do usuário quantas vezes ele foi lido pelo medoto da primeira rota sem nenhuma autenticação.
 
 <img src="./readme/getUsersAccessName.gif" alt="GIF animado">
 
