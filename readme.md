@@ -55,7 +55,7 @@ A pasta api é a pasta principal do projeto.
 ## Autores
 
 - [@iBrunos](https://www.github.com/iBrunos)
-   # ---------------------------------------------------> Readme Antigo <-----------------------------------------------------
+   # ---> Readme Antigo 
 # Este é um teste para desenvolvedores
 
 # possui 5 testes
