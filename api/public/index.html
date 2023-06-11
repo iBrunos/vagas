@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>API | SCF Brazil</title>
+  <link rel="icon" type="favicon" href="" />
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+    body {
+      font-family: 'Poppins', Arial, sans-serif;
+      background-color: #f2f2f2;
+      text-align: center;
+    }
+
+    h1 {
+      color: #333333;
+      font-size: 32px;
+      margin-top: 50px;
+    }
+
+    h2 {
+      color: #333333;
+      font-size: 24px;
+      margin-bottom: 30px;
+    }
+
+    .ok {
+      color: rgb(0, 183, 0);
+    }
+
+    a {
+      color: #000000;
+      text-decoration: none;
+    }
+
+    h3:hover {
+      color: purple;
+    }
+
+    .container {
+      width: 600px;
+      margin: 0 auto;
+      padding-top: 50px;
+    }
+
+    .logo {
+      margin-bottom: 20px;
+      width: 200px;
+      height: auto;
+    }
+
+    table {
+      width: 100%;
+      margin-top: 30px;
+      border-collapse: collapse;
+    }
+
+    th, td {
+      padding: 10px;
+      text-align: left;
+      border-bottom: 1px solid #ddd;
+    }
+
+    th {
+      background-color: #f2f2f2;
+    }
+    
+    .link:hover {
+    font-weight: 600;
+    }
+    
+    
+    
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <img class="logo" src="https://scfbrazil.com/wp-content/uploads/2020/11/6-Logo_SCFBrazil-pdf-1-1024x192.png" alt="SCF Brazil Logo">
+    <h1> Application Programming Interface</h1>
+    <h2>Status: <span class="ok">200 OK</span> | O Back-End está online e funcional.</h2>
+    <table style="width: 800px; height: 40px; ">
+      <tr>
+        <th>Método</th>
+        <th>Rota</th>
+        <th>Descrição</th>
+      </tr>
+      
+      <tr>
+        <td>GET</td>
+        <td class="link"><a href="/user/:name">/user/:name</a></td>
+        <td class="description">Rota para verificação de usuário por nome.</td>
+      </tr>
+      <tr>
+        <td>GET</td>
+        <td class="link"><a href="/users">/users</a></td>
+        <td class="description">Rota para exibição de usuários.</td>
+      </tr>
+      <tr>
+        <td>POST</td>
+        <td class="link">/users</td>
+        <td class="description">Rota para adicionar usuário.</td>
+      </tr>
+      <tr>
+        <td>DELETE</td>
+        <td class="link">/users/:name</td>
+        <td class="description">Rota para deletar usuários do sistema por nome.</td>
+      </tr>
+      <tr>
+        <td>PUT</td>
+        <td class="link">/users/:id</td>
+        <td class="description">Rota para editar os usuários do sistema por ID.</td>
+      </tr>
+      <tr>
+        <td>GET</td>
+        <td class="link"><a href="/users/access/:name">/users/access/:name</a></td>
+        <td class="description">Rota para contagem de leituras do usuário por nome.</td>
+      </tr>
+    </table>
+  </div>
+  <p style="margin-top: 40px;"> Feito por <a href="https://github.com/iBrunos" class="link" style="color: purple;">Bruno Ribeiro Seixas</a></p>
+</body>
+
+</html>
